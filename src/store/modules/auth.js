@@ -1,25 +1,19 @@
 import axios from 'axios';
 
-const state = {
+export const auth = {
+  state: {
 
-};
+  },
 
-const getters = {
+  getters: {
 
-};
+  },
 
-const mutations = {
+  mutations: {
 
-};
+  },
+  
+  actions: {
 
-const actions = {
-
-};
-
-
-export default {
-  state,
-  getters,
-  mutations,
-  actions,
-};
+  }
+}

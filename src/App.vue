@@ -7,6 +7,7 @@
 </template>
 
 <script>
+
 export default {
   name: "App",
 
@@ -21,4 +22,6 @@ export default {
 <style lang="scss">
   @import 'normalize-scss';
   @include normalize();
+
+  @import './scss/main'
 </style>

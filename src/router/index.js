@@ -4,8 +4,17 @@ import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
 /********** Module Include ***************/
+
 const Home = () => import(/* webpackChunkName: "group-home" */ '../components/modules/HomeModule/HomeModule.vue')
 const Registration = () => import(/* webpackChunkName: "group-registration" */ '../components/modules/RegistrationModule/RegistrationModule.vue')
+
+/********** End Module Include ***************/
+
+/********** Module Routes Include ***************/
+
+
+
+/********** End Module Routes Include ***************/
 
 const routes = [
   {

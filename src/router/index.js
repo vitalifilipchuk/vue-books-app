@@ -1,5 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import { routerPaths } from "./routerPaths";
 
 Vue.use(VueRouter);
 
@@ -7,6 +8,8 @@ Vue.use(VueRouter);
 
 const Home = () => import(/* webpackChunkName: "group-home" */ '../components/modules/HomeModule/HomeModule.vue')
 const Registration = () => import(/* webpackChunkName: "group-registration" */ '../components/modules/RegistrationModule/RegistrationModule.vue')
+const NotFoundModule = () => import(/* webpackChunkName: "group-not-found" */ '../components/modules/NotFoundModule/NotFoundModule.vue')
+
 
 /********** End Module Include ***************/
 
@@ -18,14 +21,18 @@ const Registration = () => import(/* webpackChunkName: "group-registration" */ '
 
 const routes = [
   {
-    path: "/",
+    path: routerPaths.home,
     name: "Home",
     component: Home,
   },
   {
-    path: "/register",
+    path: routerPaths.registration,
     name: "Registration",
     component: Registration,
+  },
+  {
+    path: '*',
+    component: NotFoundModule,
   },
 ];
 

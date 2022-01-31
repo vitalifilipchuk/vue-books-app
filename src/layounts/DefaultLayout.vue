@@ -1,11 +1,20 @@
 <template>
     <div class="default-layout">
-        <router-view />
+        <div class="container">
+            <Header />
+            <router-view />
+        </div>
     </div>
 </template>
 
 <script>
+import Header from '../components/UI/templates/Header.vue'
+
 export default {
-    name: 'DefaultLayout'
+    name: 'DefaultLayout',
+
+    components: {
+        Header,
+    },
 }
 </script>

@@ -16,6 +16,16 @@ export default {
       return this.$route.meta.layout || "default-layout"
     },
   },
+
+  mounted() {
+    this.initAppRoutes()
+  },
+
+  methods: {
+    initAppRoutes() {
+      this.$store.commit('SET_ROUTES', this.routerPaths)
+    }
+  }
 };
 </script>
 

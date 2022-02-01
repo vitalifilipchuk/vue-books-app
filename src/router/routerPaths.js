@@ -1,6 +1,6 @@
 export const routerPaths = {
     home: '/',
-    regisistration: '/registration',
+    registration: '/registration',
 
     notFound: '/404',
 }

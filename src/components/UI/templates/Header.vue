@@ -18,7 +18,7 @@ export default {
                 {
                     id: 1,
                     text: 'Home',
-                    link: a,
+                    link: this.$store.getters.getRoutes.home,
                 }
             ],
         }

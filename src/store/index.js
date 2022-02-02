@@ -30,6 +30,7 @@ export default new Vuex.Store({
     },
     SET_ROUTES(state, payload) {
       state.ROUTES = payload
+      console.log(state.ROUTES)
     }
   },
 

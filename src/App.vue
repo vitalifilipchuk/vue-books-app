@@ -7,6 +7,7 @@
 </template>
 
 <script>
+import {routerPaths} from './router/routerPaths'
 
 export default {
   name: "App",
@@ -19,6 +20,12 @@ export default {
 
   mounted() {
     this.initAppRoutes()
+  },
+
+  data() {
+    return {
+      routerPaths: routerPaths,
+    }
   },
 
   methods: {

@@ -8,7 +8,7 @@
             <ul class="header-menu">
                 <template v-for="(item, index) in menuItems">
                     <li class="header-menu__item" :key="index">
-                        <a :href="item.link">{{ item.text }}</a>
+                        <a :href="item.link" class="header-menu__link">{{ item.text }}</a>
                     </li>
                 </template>
                 

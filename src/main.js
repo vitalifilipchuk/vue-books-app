@@ -7,7 +7,7 @@ import axios from 'axios';
 Vue.config.productionTip = false;
 
 axios.defaults.withCredentials = true
-axios.defaults.baseURL = 'http://localhost:8080/';
+axios.defaults.baseURL = 'http://localhost:3000/';
 
 import DefaultLayout from './layounts/DefaultLayout'
 import AuthLayout from './layounts/AuthLayout'

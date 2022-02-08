@@ -3,30 +3,35 @@
       {
           "id": 1, 
           "title": "News article 1", 
+          "created_at": "2021-12-11",
           "preview_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis velit ac dolor pharetra sagittis. Cras tincidunt leo ut facilisis auctor. Praesent fringilla luctus ligula, rhoncus volutpat enim euismod eu.",
           "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
           "id": 2, 
           "title": "News article 2", 
+          "created_at": "2021-12-13",
           "preview_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis velit ac dolor pharetra sagittis. Cras tincidunt leo ut facilisis auctor. Praesent fringilla luctus ligula, rhoncus volutpat enim euismod eu.",
           "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
           "id": 3, 
           "title": "News article 3", 
+          "created_at": "2021-12-18",
           "preview_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis velit ac dolor pharetra sagittis. Cras tincidunt leo ut facilisis auctor. Praesent fringilla luctus ligula, rhoncus volutpat enim euismod eu.",
           "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "id": 4, 
         "title": "News article 4", 
+        "created_at": "2021-12-22",
         "preview_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis velit ac dolor pharetra sagittis. Cras tincidunt leo ut facilisis auctor. Praesent fringilla luctus ligula, rhoncus volutpat enim euismod eu.",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "id": 5, 
         "title": "News article 5", 
+        "created_at": "2022-01-05",
         "preview_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis velit ac dolor pharetra sagittis. Cras tincidunt leo ut facilisis auctor. Praesent fringilla luctus ligula, rhoncus volutpat enim euismod eu.",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       }

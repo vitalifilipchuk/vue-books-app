@@ -15,6 +15,11 @@ import AuthLayout from './layounts/AuthLayout'
 Vue.component('default-layout', DefaultLayout)
 Vue.component('auth-layout', AuthLayout)
 
+const moment = require('moment')
+Vue.use(require('vue-moment'), {
+  moment
+})
+
 new Vue({
   router,
   store,

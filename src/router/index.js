@@ -9,6 +9,7 @@ Vue.use(VueRouter);
 const Home = () => import(/* webpackChunkName: "group-home" */ '../components/modules/HomeModule/HomeModule.vue')
 const Registration = () => import(/* webpackChunkName: "group-registration" */ '../components/modules/RegistrationModule/RegistrationModule.vue')
 const Auth = () => import(/* webpackChunkName: "group-auth" */ '../components/modules/AuthModule/AuthModule.vue')
+const NewsModule = () => import(/* webpackChunkName: "group-news" */ '../components/modules/NewsModule/NewsModule.vue')
 const NotFoundModule = () => import(/* webpackChunkName: "group-not-found" */ '../components/modules/NotFoundModule/NotFoundModule.vue')
 
 
@@ -35,6 +36,11 @@ const routes = [
     path: routerPaths.login,
     name: "Login",
     component: Auth,
+  },
+  {
+    path: routerPaths.news,
+    name: "News",
+    component: NewsModule,
   },
   {
     path: '*',

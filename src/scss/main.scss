@@ -59,3 +59,20 @@ body {
         }
     }
 }
+
+.page__wrapper {
+    display: flex;
+    margin: 0 -10px;
+    padding: 30px 0;
+}
+
+.sidebar {
+    flex-shrink: 0;
+    flex-basis: 33%;
+    min-width: 240px;
+    padding: 0 10px;
+}
+
+.page__content {
+    padding: 0 10px;
+}

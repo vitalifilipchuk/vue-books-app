@@ -5,5 +5,7 @@ export const routerPaths = {
 
     news: '/news',
 
+    books: '/books',
+
     notFound: '/404',
 }

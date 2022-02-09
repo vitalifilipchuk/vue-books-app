@@ -1,32 +1,30 @@
 <template>
-    <div class="page">
-        <div class="page__wrapper">
-            <div class="page__content">
-                <LatestNews
-                    
-                 />
-            </div>
-            <div class="sidebar">
-            
-            </div>
-        </div>
+  <div class="page">
+    <div class="page__wrapper">
+      <div class="page__content">
+        <LatestNews
+
+        />
+      </div>
+      <div class="sidebar">
+
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 import LatestNews from '../NewsModule/LatestNews/LatestNews.vue'
 
 export default {
-    name: 'HomeModule',
+  name: 'HomeModule',
 
-    components: {
-        LatestNews,
-    },
+  components: {
+    LatestNews,
+  },
 
-    data() {
-        return {
-
-        }
-    },
+  data() {
+    return {}
+  },
 }
 </script>
